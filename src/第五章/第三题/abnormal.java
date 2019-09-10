@@ -6,7 +6,7 @@ public class abnormal {
             int[] array = {1, 2, 3, 4, 5, 6, 7, 8};
             System.out.println(array[9]);
         }catch (Exception e){
-            System.out.println("数组越界了可能！！！");
+            System.err.println(e.getMessage());
             e.printStackTrace();
         }finally {
             System.out.println("程序结束！！！");

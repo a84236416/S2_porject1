@@ -1,4 +1,4 @@
-package 第二张第五题;
+package 第二章第六题.第二张第五题;
 
 public class Bird extends Animal {
     public String color;

@@ -25,19 +25,32 @@ class  InsertSort implements  Sortable{
         System.out.println("=============插入排序=============");
     }
 }
-class  Context{
-   //private Sortable sortable;
-    //public Context(Sortable sortable){
-       // this.sortable=sortable;
-    //}
+
+class  Context1{
     public void doSort(Sortable sortable,int [] nums){
+        sortable.sort(nums);
+    }
+}
+class  Context{
+   private Sortable sortable;
+    public Context(Sortable sortable){
+        this.sortable=sortable;
+    }
+    public void doSort(int [] nums){
         sortable.sort(nums);
     }
 }
 class  Test{
     public static void main(String[] args) {
       Sortable sortable=new BubbleSort();
-      Context ctx=new Context();
-      ctx.doSort(sortable,new int[]{1,2,3,4,5});
+      Context ctx=new Context(sortable);
+      ctx.doSort(new int[]{1,2,3,4,5});
+    }
+}
+class  Test1{
+    public static void main(String[] args) {
+        Sortable sortable=new InsertSort();
+        Context1 context1=new Context1();
+        context1.doSort(sortable,new int[]{1,2,3,5,5});
     }
 }

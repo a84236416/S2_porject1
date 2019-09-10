@@ -1,4 +1,4 @@
-package 第二张第五题;
+package 第二章第六题.第二张第五题;
 
 public class Test {
     public static void main(String[] args) {

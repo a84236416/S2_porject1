@@ -1,4 +1,4 @@
-package 第二张第五题;
+package 第二章第六题.第二张第五题;
 
 public abstract class Animal {
     public int getAge() {
