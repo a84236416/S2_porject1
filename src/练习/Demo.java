@@ -4,10 +4,12 @@ public class Demo {
     private int[] count;
 
     public Demo() {
+
         count = new int[10];
     }
 
     public void setCount(int ct, int n) {
+
         count[n] = ct;
     }
 

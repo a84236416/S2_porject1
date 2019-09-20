@@ -13,5 +13,7 @@ public class Test {
         System.out.println(a);
         Queue b= (Queue)list.removeLast();
         System.out.println(b);
+        Queue c=(Queue) list.removeLast();
+        System.out.println(c);
     }
 }
