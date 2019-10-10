@@ -8,5 +8,6 @@ public class Demo {
         t.setName("主线程");
         System.out.println(t.getName());
         System.out.println(t.isAlive());
+
     }
 }

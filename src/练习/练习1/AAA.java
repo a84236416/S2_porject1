@@ -17,7 +17,7 @@ class Test11{
             public void run(){
                 for (int i=0;i<100;i++){
                     try {
-                        Thread.sleep(10000);
+                        Thread.sleep(10);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
@@ -30,7 +30,7 @@ class Test11{
             @Override
             public void run(){
                 try {
-                    Thread.sleep(1000);
+                    Thread.sleep(10);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
