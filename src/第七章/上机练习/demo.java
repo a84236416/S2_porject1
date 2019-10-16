@@ -13,7 +13,7 @@ public class demo extends Thread{
     public void run(){
         while (true){
             synchronized (object){
-                if (sum==0){
+                if (sum<=0){
                     break;
                 }
                 sum--;
