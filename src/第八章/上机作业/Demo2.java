@@ -2,7 +2,7 @@ package 第八章.上机作业;
 
 import java.io.*;
 
-public class Demo2 {
+public class  Demo2 {
     public static void main(String[] args)throws IOException{
         FileReader reader=new FileReader("D:\\test.txt");
         BufferedReader br=new BufferedReader(reader);

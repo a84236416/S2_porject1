@@ -1,7 +1,5 @@
 package 第七章.第四题;
 
-import 练习.练习1.MyThread;
-
 public class Myread extends Thread {
     @Override
     public void run(){
